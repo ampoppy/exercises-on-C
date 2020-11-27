@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{ int min;
+float euro;
+printf ("an steileis:\n");
+scanf ("%d", &min);
+if (min<=10)
+    euro=min*2;
+    else if(min<=60)
+    euro=min*1.5;
+        else if(min<=160)
+        euro=min*1.2;
+             else
+             euro=min*1;
+    
+printf ("tha xreotheis %.2f",min,euro);
+printf("\n");
+}
