@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <cs50.h>
 
+int main()
+
 float average(int length, int array[]);
 
-int main()
 {
     int n = get_int("Number of scores: ");
 
