@@ -1,8 +1,0 @@
-int main() {
-    int x, y;
-    printf ("Pliktrologise ton arithmo 4: ");
-    scanf ("%d", &x);
-    for (y=1; y<=10; y++)
-    printf ("%d*%d=%d\n",y, x, y*x);
-    
-    }
