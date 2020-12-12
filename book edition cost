@@ -4,7 +4,7 @@
 int main()
 { int book; //βιβλια
 float euro; //κοστος
-printf ("parakaloume eisagete twn arithmo twn vivliwn pou epithimeite: "); //εμφανισε στην οθονη ερωτηση για τον επιθυμιτο αριθμο
+printf ("parakaloume eisagete twn arithmo twn vivliwn pou epithimeite: "); //εμφανισε στην οθονη ερωτηση για τον επιθυμητο αριθμο
 scanf ("%d", &book); 
 if (book<=100) //αν τα βιβλια ειναι λιγοτερα απο 100
     euro=(book*2.80); // πολλαπλασιασε τα με 2.8 που ειναι το κοστος
