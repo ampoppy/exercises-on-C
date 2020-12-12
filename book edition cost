@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+
+int main()
+{ int book; //βιβλια
+float euro; //κοστος
+printf ("parakaloume eisagete twn arithmo twn vivliwn pou epithimeite: "); //εμφανισε στην οθονη ερωτηση για τον επιθυμιτο αριθμο
+scanf ("%d", &book); 
+if (book<=100) //αν τα βιβλια ειναι λιγοτερα απο 100
+    euro=(book*2.80); // πολλαπλασιασε τα με 2.8 που ειναι το κοστος
+    else if(book<=500) //κ.ο.κ
+    euro=(100*2.8)+ (book-100)*2.4 ;
+      else
+     euro=(100*2.8)+ (book-500)*1.5 +(400*2.4) ;
+    
+printf ("h xrewsi tous tha einai: %.2f",book,euro); // εμφανισε το κοστος
+}
