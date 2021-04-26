@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    float varos, ipsos, dms;
+    printf (" dwse varos kai ipsos\n");
+    scanf ("%f, %f", &varos, &ipsos);
+    dms= varos/(ipsos*ipsos);
+    printf ("gia varos %.2f kai ipsos %.2f o dms einai %.2f", varos, ipsos, dms);
+}
