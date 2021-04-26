@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    float litra, poso, timilitrou;
+    scanf ("%f, %f", &litra, &poso);
+    timilitrou= poso/ litra;
+    if (timilitrou>1.3)
+    printf ("akrivi venzini");
+    else
+    printf ("ftini venzini");
+}
