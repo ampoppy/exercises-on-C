@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int plithos;
+    char eidos;
+    float kostos;
+
+    printf("dwse plithos kai eidos:\n");
+    scanf("%d %c", &plithos, &eidos);
+    
+if (eidos=='E')
+kostos= (plithos*0.23);
+if (eidos=='A')
+kostos= (plithos*0.70);
+if   (eidos=='T')
+kostos= (plithos*0.15);
+printf ("prepei na plirwseis:%.2f euro", kostos);
+}
